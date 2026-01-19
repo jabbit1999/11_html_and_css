@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>04_영역 관련 태그</title>
+  <style>
+      .box {
+          border: 1px solid black;
+          width: 100px;
+          height: 100px;
+      }
+
+      .red {
+          background-color: red;
+      }
+
+      .yellow {
+          background-color: yellow;
+      }
+
+      .green {
+          background-color: green;
+      }
+  </style>
+</head>
+<body>
+
+  <h1>영역 관련 태그</h1>
+  <pre>
+    * block 요소
+      - 줄 바꿈이 적용되어 이미 존재하는 태그의 다음 줄에 영역 설정됨
+      - 화면을 수직 분할함(행이 쌓여 있는 모양)
+      - 너비/높이를 설정할 수 있다!
+      - block 요소 태그 : div, p, pre, h1, form
+
+    * inline 요소
+      - 줄 바꿈이 적용되지 않아 옆으로 영역이 붙는 형식으로 설정됨
+      - 화면을 수평 분할함(한 줄에 글이 작성되는 모양)
+      - 너비/높이는 내부 내용(content)의 크기에 따라 결정된다.
+      - inline 요소 태그 : span, strong, b, em, i, mark,
+                        sup, sub, addr, img, audio, video
+  </pre>
+
+  <h3>div태그(block 요소)</h3>
+  <div class="box red">첫 번째 영역</div>
+  <div class="box yellow">두 번째 영역</div>
+  <div class="box green">세 번째 영역</div>
+
+  <hr>
+  <h3>span태그(inline 요소)</h3>
+  <span class="box red">첫 번째 영역</span>
+  <span class="box yellow">두 번째 영역</span>
+  <span class="box green">세 번째 영역</span>
+
+  <hr>
+  <h3>block/inline 차이점 확인</h3>
+  <h5>block 요소</h5>
+  <div class="yellow">
+    만약에
+    시간 괜찮냐라던 네 말에
+    마침 비었었던 그날에
+    집에 혼자 남아
+    잠이나 잤다면 우린 달랐을까
+
+    No way
+    아무래도 운명인거 같애
+    내 머린 온통 네 생각에
+    영화 같은 거야
+    멈춘 시간 속에 너와 나
+
+    작은 조각들의 Memories
+    불러 뻔한 사랑의 Melody
+    그저 우리의 영화를
+    불러 보는 중이야
+    주인공이 되어줄래 잠깐
+
+    영화 같은 우리의 Stories
+    잊혀 지지 않게 사소한 순간까지 담아
+    나도 모르게 흥얼거리는
+    OST(Our Sound Track)
+
+    갑자기 약속이 없어졌던 그날
+    집에도 못가 혼자 멍 때린 그밤
+
+    왜 하필 너를 생각했을까
+    누군가가 장난을 쳤었나
+
+    처음 손을 잡아줬던 겨울
+    너를 떠나가려 했던 여름도
+
+    전부 소중해 여기 담을게
+    멈춘 시간 속에 너와 나
+
+    작은 조각들의 Memories
+    불러 뻔한 사랑의 Melody
+    그저 우리의 영화를
+    불러 보는 중이야
+    주인공이 되어줄래 잠깐
+
+    영화 같은 우리의 Stories
+    잊혀 지지 않게 사소한 순간까지 담아
+    나도 모르게 흥얼거리는
+    OST(Our Sound Track)
+
+    우리 이야기의
+    마지막에도
+    손을 꼭 잡아줄래
+
+    그렇게 할게
+    언제나 너의
+    품에 안겨있을게
+
+    생각나니 그 어색했던 밤
+    맞아 처음 함께했던 날
+    영화 속 한 장면 같아
+    멈춘 시간 속에 너와 나
+
+    작은 조각들의 Memories
+    불러 뻔한 사랑의 Melody
+    그저 우리의 영화를
+    불러 보는 중이야
+    주인공이 되어줄래 잠깐
+
+    영화 같은 우리의 Stories
+    잊혀 지지 않게 사소한 순간까지 담아
+    나도 모르게 흥얼거리는
+    OST(Our Sound Track)
+  </div>
+
+  <h5>inline 요소</h5>
+  <span class="box green">
+    만약에
+시간 괜찮냐라던 네 말에
+마침 비었었던 그날에
+집에 혼자 남아
+잠이나 잤다면 우린 달랐을까
+
+No way
+아무래도 운명인거 같애
+내 머린 온통 네 생각에
+영화 같은 거야
+멈춘 시간 속에 너와 나
+
+작은 조각들의 Memories
+불러 뻔한 사랑의 Melody
+그저 우리의 영화를
+불러 보는 중이야
+주인공이 되어줄래 잠깐
+
+영화 같은 우리의 Stories
+잊혀 지지 않게 사소한 순간까지 담아
+나도 모르게 흥얼거리는
+OST(Our Sound Track)
+
+갑자기 약속이 없어졌던 그날
+집에도 못가 혼자 멍 때린 그밤
+
+왜 하필 너를 생각했을까
+누군가가 장난을 쳤었나
+
+처음 손을 잡아줬던 겨울
+너를 떠나가려 했던 여름도
+
+전부 소중해 여기 담을게
+멈춘 시간 속에 너와 나
+
+작은 조각들의 Memories
+불러 뻔한 사랑의 Melody
+그저 우리의 영화를
+불러 보는 중이야
+주인공이 되어줄래 잠깐
+
+영화 같은 우리의 Stories
+잊혀 지지 않게 사소한 순간까지 담아
+나도 모르게 흥얼거리는
+OST(Our Sound Track)
+
+우리 이야기의
+마지막에도
+손을 꼭 잡아줄래
+
+그렇게 할게
+언제나 너의
+품에 안겨있을게
+
+생각나니 그 어색했던 밤
+맞아 처음 함께했던 날
+영화 속 한 장면 같아
+멈춘 시간 속에 너와 나
+
+작은 조각들의 Memories
+불러 뻔한 사랑의 Melody
+그저 우리의 영화를
+불러 보는 중이야
+주인공이 되어줄래 잠깐
+
+영화 같은 우리의 Stories
+잊혀 지지 않게 사소한 순간까지 담아
+나도 모르게 흥얼거리는
+OST(Our Sound Track)
+  </span>
+
+</body>
+</html>

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>07_하이퍼 링크 관련 태그</title>
+  <style>
+      html {
+          scroll-behavior: smooth;
+      }
+  </style>
+</head>
+<body>
+  <h1>하이퍼 링크 관련 태그</h1>
+  <pre>
+    링크 기능은 웹 문서(html)가 다른 문서와 구분되는
+    가장 핵심적인 기능이다.
+    
+    클릭을 통해 연결된 곳으로 이동하여 사용을 편리하게 해줌.
+    
+    텍스트, 이미지를 이용한
+    페이지 이동 / 페이지 내 점프 기능을 제공, 
+    
+  </pre>
+
+  <h3>a태그를 이용한 하이퍼링크 테스트</h3>
+  <ul>
+    <li>
+      <a href="01_글자관련태그.html" target="_self">글자관련태그</a>
+    </li>
+    <li>
+      <!--_black == 새 탭-->
+      <a href="02_목록관련태그.html" target="_blank">목록관련태그</a>
+    </li>
+    <li>
+      <a href="03_표관련태그.html">표관련 태그</a>
+    </li>
+    <li>
+      <a href="https://www.naver.com" target="_blank">네이버로 이동</a>
+    </li>
+    <li>
+      <a href="https://www.google.com" target="_blank">구글로 이동</a>
+    </li>
+  </ul>
+
+  <h3>이미지를 이용한 이동</h3>
+  <a href="https://www.w3schools.com/">
+    <img src="./sample/image/W3C.png" width="150px" height="150px" alt="">
+  </a>
+
+  <hr>
+  <h3 id="menu">한 페이지 내에서 점프하는 앵커 만들기</h3>
+  <ul>
+    <li><a href="#content1">본문내용1</a></li>
+    <li><a href="#content2">본문내용2</a></li>
+    <li><a href="#content3">본문내용3</a></li>
+  </ul>
+  <!-- # == id 속성 값 -->
+
+  <h4 id="content1">본문 내용1</h4>
+  <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam aspernatur commodi distinctio dolore eius in
+    nisi omnis quasi tenetur totam velit veniam, voluptatem. Cumque cupiditate dicta dolor officia sed.
+  </div>
+  <div>Amet culpa et ex fuga itaque? Ad ducimus eaque fuga id itaque libero magnam, maiores quam quisquam ratione!
+    Aspernatur expedita fugiat iure laboriosam nostrum praesentium quidem, quisquam quod tempora voluptatem.
+  </div>
+  <div>Ab ad aspernatur consectetur dolor dolorum enim, error in magni, mollitia quaerat repellat sapiente vitae?
+    Assumenda eius, excepturi facere harum iste, iure laborum natus praesentium quo tempora ullam veniam vitae!
+  </div>
+  <div>Animi ducimus enim facilis inventore optio saepe, temporibus vero. A ad architecto commodi, debitis doloremque
+    explicabo fugiat, ipsam ipsum magnam magni maxime nesciunt odio odit optio qui temporibus voluptatem voluptatibus?
+  </div>
+  <div>Beatae blanditiis, consectetur consequatur dolor dolore doloribus, est exercitationem laboriosam libero minus
+    molestias non odit officia pariatur placeat quas quis quisquam, recusandae rerum similique sit tempore unde veniam
+    vero vitae.
+  </div>
+  <div>Eos, libero quibusdam! Accusamus aliquam culpa hic magnam mollitia porro ratione sed tenetur? Assumenda atque
+    earum eum nobis nulla quia sed soluta voluptatem. Aspernatur aut, deleniti explicabo nostrum reiciendis repellat!
+  </div>
+  <div>Consequuntur cumque cupiditate distinctio dolores dolorum ea eum eveniet ex exercitationem fuga ipsa iste laborum
+    nam natus nostrum nulla numquam obcaecati perspiciatis quia quibusdam quidem reprehenderit sed tenetur unde, vel.
+  </div>
+  <div>Ab dignissimos doloremque, ducimus eius eos eum hic ipsum laudantium magnam, mollitia nam, nemo quae quos sit
+    tempore temporibus voluptates. Cupiditate deleniti dolorum hic iusto quae sequi sint! Eaque, obcaecati?
+  </div>
+  <div>Error id illo ipsam iure, laudantium nisi quasi quisquam quod soluta tempore! Ad at deserunt est ex facere fuga
+    fugiat id ipsum maxime nulla quae ratione, sed soluta ullam vel.
+  </div>
+  <div>Accusamus accusantium at cupiditate explicabo harum labore nemo nostrum optio quisquam temporibus? Accusamus
+    animi consectetur corporis, debitis eaque, esse eveniet ipsam ipsum minus non quidem ratione reiciendis. Accusantium
+    nesciunt, sint!
+  </div>
+  <div>Consequatur illo ipsam modi molestias qui saepe soluta, tempora totam. Aliquid commodi consectetur cumque,
+    dolores doloribus, illum minus nisi odit quasi repellendus reprehenderit sapiente velit voluptate. Architecto et
+    excepturi unde.
+  </div>
+  <div>Architecto aut expedita explicabo hic in laudantium maxime rem. Laborum optio quidem tempore unde voluptates.
+    Corporis dolor facilis fugit id illo magnam sint unde. Ad dolore exercitationem illo reprehenderit sit.
+  </div>
+  <div>Assumenda corporis ex exercitationem facilis in officiis possimus qui sint ullam voluptatum? Alias aliquam
+    assumenda, at atque blanditiis ducimus itaque modi mollitia natus nemo nulla numquam quasi quibusdam quos ut!
+  </div>
+  <div>Aliquam delectus excepturi fuga illum ipsum iste itaque nam natus necessitatibus nemo non numquam possimus, quae
+    quia quibusdam temporibus velit, voluptas! Autem consequuntur distinctio ea excepturi, in nemo perferendis
+    voluptate!
+  </div>
+  <div>Ducimus magnam nesciunt quidem reprehenderit temporibus. Cupiditate ex explicabo facilis illo mollitia, quia
+    vero. Aliquid beatae consectetur doloribus eius, error harum laudantium minima minus neque nisi nulla porro quis
+    quos.
+  </div>
+  <div>Cum ducimus harum itaque libero magni non officia quidem similique sit tempora! Adipisci facilis illum iusto
+    magni neque pariatur quo rem repellat reprehenderit saepe sequi, similique tenetur! Enim, modi, quo.
+  </div>
+  <div>A consequatur distinctio eaque facere fugiat fugit incidunt iste laboriosam mollitia nam natus necessitatibus
+    nulla placeat quidem quo recusandae rerum unde, vitae voluptate, voluptatem. Ea in molestias placeat possimus
+    veritatis!
+  </div>
+  <div>Accusamus amet animi architecto asperiores consectetur consequuntur cupiditate distinctio dolore ea eius,
+    excepturi inventore laudantium maiores necessitatibus, odio officia optio placeat porro quasi qui quo saepe tempora
+    voluptas voluptate voluptates?
+  </div>
+  <div>Consectetur corporis, dicta dolorem dolores earum eligendi et eum facilis id impedit ipsum iure iusto
+    necessitatibus nemo nihil officia officiis pariatur perspiciatis, quidem rem sequi similique soluta tenetur vero
+    voluptatem?
+  </div>
+  <div>Ab accusantium aliquam dolores doloribus eius inventore laudantium perferendis quis repellat vel. Commodi
+    consectetur, dicta eius, enim error eveniet, excepturi expedita hic molestias necessitatibus neque nihil quibusdam
+    ratione sequi sit!
+  </div>
+
+  <h4 id="content2">본문 내용2</h4>
+  <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque debitis, dolore, fugiat nulla odit porro quam
+    quas quasi ratione rerum sint tempora velit, vitae. Aliquam aspernatur ipsa labore minus repudiandae.
+  </div>
+  <div>Amet aperiam esse est fuga fugit magnam magni minima officiis temporibus vitae! Accusantium at, cum ducimus ex
+    explicabo magnam minus non perspiciatis possimus quam quas ratione, recusandae ut, vel voluptatem?
+  </div>
+  <div>Accusantium aspernatur at, autem dignissimos, dolorem ducimus esse laboriosam magni nulla quod rem, tempora ullam
+    voluptatum! Aliquid amet aut, eaque enim fuga laudantium, magnam optio praesentium tenetur, veniam voluptas
+    voluptatibus.
+  </div>
+  <div>Accusantium alias blanditiis consequuntur dicta doloremque eos impedit in, minus numquam placeat praesentium
+    quasi tempore voluptatibus? Cum, natus, reiciendis. Consectetur deleniti dolore esse itaque modi officiis optio
+    placeat quasi veritatis?
+  </div>
+  <div>Ab doloribus minus molestiae molestias porro repudiandae, sed suscipit voluptates. Commodi dolores eaque fuga
+    harum odio provident vel. Asperiores dolorum eos labore nobis ratione! Error et itaque molestiae porro repudiandae?
+  </div>
+  <div>Accusamus aliquid aut blanditiis corporis delectus doloribus ducimus et eum ex excepturi, fugit illo illum
+    impedit incidunt ipsam, iusto, laudantium nam nemo neque nesciunt odio rerum sint tempora velit voluptate?
+  </div>
+  <div>Asperiores cupiditate enim fugit itaque, labore, laboriosam laborum magnam maxime molestiae recusandae
+    repellendus saepe soluta vero. Amet dignissimos ducimus explicabo, hic ipsam, ipsum nemo officia qui quia ratione
+    saepe similique.
+  </div>
+  <div>Accusantium adipisci autem consequuntur cumque debitis dolorem, dolores doloribus eius eligendi excepturi
+    exercitationem facilis id in ipsam iure laboriosam laborum maxime nam nulla officiis quibusdam ratione rem
+    reprehenderit sed voluptates?
+  </div>
+  <div>Ab aliquid aut autem blanditiis consequuntur corporis dignissimos distinctio eius, excepturi fuga iste iure
+    libero maiores necessitatibus nostrum officiis perspiciatis porro ratione repellat tenetur unde vero vitae,
+    voluptas. Architecto, maiores.
+  </div>
+  <div>Adipisci aliquam amet autem, cum dignissimos doloribus eligendi illo ipsam, nam necessitatibus neque, ut vel
+    veritatis. Consectetur consequatur, cum dolor, ducimus earum eius enim est fugiat libero nam provident, quam?
+  </div>
+  <div>Ad adipisci beatae cumque eius, eos, esse facilis inventore labore laboriosam mollitia odit perferendis, placeat
+    quaerat quia quibusdam rem sunt! Assumenda autem dicta dolor dolore eius iusto sunt, vel vero?
+  </div>
+  <div>Adipisci autem culpa cumque cupiditate, dolores ea eaque facilis fugit hic nemo nulla numquam omnis saepe,
+    tempora unde ut vitae voluptates! Dignissimos laborum maiores rerum. Distinctio est necessitatibus nobis
+    praesentium.
+  </div>
+  <div>Earum hic incidunt maiores perferendis quas sequi ullam! Ad architecto corporis explicabo hic impedit iste minus
+    molestiae nisi numquam officiis omnis quaerat reiciendis rem, repudiandae sequi sint sunt tenetur voluptas!
+  </div>
+  <div>Ab aliquid amet aperiam architecto asperiores atque consequuntur culpa doloremque earum et harum incidunt itaque,
+    laboriosam magni minus nihil non placeat, quam temporibus totam ullam veniam voluptatem voluptates voluptatibus
+    voluptatum?
+  </div>
+  <div>Adipisci alias aliquam animi aspernatur atque aut culpa, earum expedita explicabo fuga in itaque maiores minus
+    natus necessitatibus, neque nihil nobis nulla possimus provident qui, quibusdam recusandae sunt vel vero!
+  </div>
+  <div>Aspernatur nobis saepe similique voluptates! Debitis, dolorem doloremque dolorum earum laboriosam nesciunt omnis
+    quidem quod ratione soluta! Accusantium aperiam doloribus incidunt molestiae nihil, nobis quas qui repellat sed
+    tempora voluptatum.
+  </div>
+  <div>Aliquid blanditiis dolorum itaque magnam officia, ratione reiciendis rerum sed voluptate voluptates. Ab dolore
+    doloribus id nisi! Assumenda atque eos inventore sed tenetur. Aut laudantium perspiciatis quia quisquam, rem
+    voluptatum?
+  </div>
+  <div>Aliquam fuga quaerat quas unde. Adipisci animi aperiam atque consequatur cumque deleniti dolore ea est eum
+    explicabo fugiat nostrum nulla odit optio provident quaerat quidem repudiandae rerum sit, suscipit voluptate.
+  </div>
+  <div>Accusantium animi aperiam blanditiis consequatur delectus deleniti eaque eius eligendi eos excepturi explicabo
+    harum id illo labore mollitia natus, nisi nostrum numquam quae quos sit totam vero voluptate. Inventore, maiores.
+  </div>
+  <div>Aspernatur autem, consequatur corporis debitis doloremque, doloribus facilis maiores maxime minima natus nihil,
+    nostrum nulla qui quo reprehenderit unde ut voluptatibus? Architecto aut est explicabo in, quaerat quasi sequi.
+    Tenetur?
+  </div>
+
+  1<h4 id="content3">본문 내용3</h4>
+  <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis delectus ipsa iusto labore maxime molestias
+    nesciunt sit temporibus. Ad commodi dignissimos dolor dolorum expedita explicabo in laudantium libero magnam vel.
+  </div>
+  <div>Consequuntur dolore dolorum, ducimus eos est explicabo harum incidunt iste maiores modi, molestias natus
+    obcaecati provident quod voluptatibus. Accusamus asperiores autem delectus, dolorum incidunt iste laboriosam nam non
+    porro voluptatibus.
+  </div>
+  <div>A aliquid asperiores cum dicta dignissimos distinctio enim eos et excepturi, facere incidunt magnam molestiae
+    molestias obcaecati perferendis quae quisquam quo sit tempore, tenetur unde vero vitae. Commodi, dolorem eum.
+  </div>
+  <div>Ab eius, expedita fugit illo in maxime nam natus nemo nobis praesentium soluta voluptates? Accusantium aperiam
+    doloremque minima obcaecati quos sit temporibus ut voluptatum! Eum explicabo fuga fugiat minus quibusdam.
+  </div>
+  <div>Aspernatur beatae earum esse eum facere inventore labore libero nam necessitatibus non, quod repellat repellendus
+    sequi totam voluptates? Accusamus asperiores assumenda consequatur deleniti distinctio esse libero minima nam sequi
+    voluptatem!
+  </div>
+  <div>Accusantium aspernatur corporis dolor itaque mollitia nisi nobis placeat ratione sit unde? Ad aspernatur
+    consequatur dolorem eligendi enim est exercitationem, facilis ipsum minima nam nesciunt non nostrum quis voluptate
+    voluptatum!
+  </div>
+  <div>At consectetur consequatur, dolorem dolores expedita libero magni necessitatibus nisi reprehenderit rerum.
+    Aliquam debitis exercitationem incidunt, iste maxime minus quia soluta vitae. Accusantium culpa, cumque deserunt
+    excepturi explicabo officiis optio.
+  </div>
+  <div>Asperiores at atque autem cupiditate delectus ea, esse fuga, fugiat in mollitia nemo non odio officia quisquam
+    quod repellendus sint vero voluptas voluptatem voluptatum! Deleniti dolor eum sequi. Deserunt, natus.
+  </div>
+  <div>Aliquid amet beatae debitis eligendi facere itaque laudantium neque quasi reiciendis totam. Ad aperiam aut autem
+    corporis deleniti dicta dolore impedit ipsum, labore, laudantium maiores mollitia nesciunt nulla reiciendis sunt.
+  </div>
+  <div>A accusamus aut consequatur cum dolorem dolores eveniet ex id incidunt iure nihil nulla obcaecati placeat quam,
+    quidem, ratione recusandae repellat? Eius exercitationem labore nisi quaerat quod reprehenderit ut veniam?
+  </div>
+  <div>Dignissimos ducimus excepturi nisi optio reiciendis. A ab ad atque beatae consequatur cumque dolore eligendi
+    harum libero non, optio recusandae rem sapiente sit suscipit tempore temporibus velit? Et, illo laborum.
+  </div>
+  <div>Autem beatae commodi cum cupiditate deserunt dicta eaque earum enim eveniet exercitationem facere harum incidunt,
+    itaque labore modi, mollitia odio omnis perferendis qui quos recusandae rem sint sunt voluptatem voluptatum.
+  </div>
+  <div>Aliquam amet aut, distinctio molestiae placeat quidem voluptate. Ad amet consequuntur corporis cumque, cupiditate
+    inventore libero provident quaerat quam soluta! Ea id laudantium maxime odit quae qui reprehenderit tempora vero!
+  </div>
+  <div>A, amet aspernatur commodi consectetur distinctio dolore, doloribus et eum excepturi harum iste libero magnam,
+    maiores molestias natus nemo nesciunt numquam optio possimus quidem reprehenderit sapiente sed sit unde ut.
+  </div>
+  <div>At ducimus error facere fugit incidunt modi quas tenetur unde voluptate voluptatibus. Asperiores blanditiis
+    doloremque eius exercitationem maxime necessitatibus, nemo neque officia omnis optio possimus quisquam quo
+    reiciendis sapiente voluptatibus.
+  </div>
+  <div>Ab accusantium consequatur deleniti dicta eius error et harum inventore itaque laboriosam maiores molestias neque
+    omnis optio perspiciatis, sequi veniam. Asperiores aspernatur assumenda et expedita fuga magni nemo odio sit.
+  </div>
+  <div>Alias beatae cupiditate distinctio, incidunt molestias numquam quidem quisquam ratione temporibus voluptatem,
+    voluptates voluptatibus! Ad atque ducimus error ex, fugiat hic itaque natus nisi non odio, officiis possimus
+    suscipit vero!
+  </div>
+  <div>A ad aperiam aspernatur consequatur dolores doloribus ducimus eius eos est exercitationem facilis fuga ipsum
+    minima mollitia necessitatibus nisi non nulla odit optio perferendis perspiciatis saepe temporibus vero vitae,
+    voluptate.
+  </div>
+  <div>Ab accusamus alias cupiditate delectus deserunt, dolor ducimus eos esse est expedita facere fugiat illo inventore
+    molestiae nobis odio perspiciatis placeat qui quia repellat repellendus sed, sunt tenetur veritatis voluptate!
+  </div>
+  <div>Accusantium consequatur delectus dignissimos esse eveniet ex facilis fuga illum in laborum maxime minima nam
+    nobis numquam perferendis perspiciatis quia quod, repellendus sapiente sed temporibus tenetur totam unde veniam
+    vitae.
+  </div>
+
+  <h1>
+    <a href="#menu">메뉴로 돌아가기</a>
+  </h1>
+
+
+</body>
+</html>
