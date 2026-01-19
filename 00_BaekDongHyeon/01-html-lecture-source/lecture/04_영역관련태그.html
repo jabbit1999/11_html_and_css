@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>04_영역 관련 태그</title>
+  <style>
+      .box {
+          border: 1px solid black;
+          width: 100px;
+          height: 100px;
+      }
+
+      .red {
+          background-color: red;
+      }
+
+      .yellow {
+          background-color: yellow;
+      }
+
+      .green {
+          background-color: green;
+      }
+  </style>
+</head>
+<body>
+  <h1>영역 관련 태그</h1>
+  <pre>
+    * block 요소
+      - 줄 바꿈이 적용되어 이미 존재하는 태그의 다음 줄에 영역 설정됨
+      - 화면을 수직 분할함(행이 쌓여 있는 모양)
+      - 너비/높이를 설정할 수 있다!
+      - block요소 태그 : div, p, pre, h1, form
+    
+    * inline 요소
+      - 줄 바꿈이 적용되지 않아 옆으로 영역이 붙는 형식으로 설정됨
+      - 화면을 수평 분할함(한 줄에 글이 작성되는 모양)
+      - 너비/높이는 내부 내용(content)의 크기에 따라 결정된다.
+      - inline요소 태그 : span, strong, b, em, i, mark,
+                        sup, sub, addr, img, audio, video
+  </pre>
+  
+  <h3>div태그(block 요소)</h3>
+  <div class="box red">첫 번째 영역</div>
+  <div class="box yellow">두 번째 영역</div>
+  <div class="box green">세 번째 영역</div>
+  
+  <hr>
+  <h3>span태그(inline 요소)</h3>
+  <span class="box red">첫 번째 영역</span>
+  <span class="box yellow">두 번째 영역</span>
+  <span class="box green">세 번째 영역</span>
+  
+  <hr>
+  <h3>block/inline 차이점 확인</h3>
+  <h5>block 요소</h5>
+  <div class="yellow">
+    You'll always be my blue valentine
+    You'll always be my blue valentine
+    
+    식어버린 너의 색은 blue
+    파랗게 멍이 든 my heart
+    몇 번이고 덧이 나
+    열이 나 lovesick
+    이건 such a bad love
+    
+    We fight, we sigh, and stop
+    붉게 타오르다 한순간에 식어가
+    Rewind, rewind, rewind
+    언제 그랬냐는 듯이 또 서롤 찾아
+    
+    깊게 새긴 상처
+    비친 red blood
+    부서진 forever
+    I can see it now
+    Can you see it now?
+    
+    우린 마치 broken glass on the ground
+    돌이킬 수 없다 해도
+    We can figure it out
+    
+    If this love is over
+    다시 뛰어들어 난
+    이 사랑은 colder
+    I'll keep the fire lit in mine
+    
+    You'll always be my blue valentine
+    You'll always be my blue valentine
+    
+    식어도 타오르는 얼음 속 불꽃
+    아무 겁도 없이 뻗어버린 손
+    Hot and icy
+    But I like it
+    It's so you
+    
+    바뀌어 맘의 weather
+    몰려온 cloud
+    외로운 together
+    I can feel it now
+    Can you feel it now?
+    
+    Rollercoaster처럼
+    우린 정신없이
+    흔들려도
+    돌아갈 걸 알아
+    So it doesn't matter
+    
+    You might be my end game
+    대가로 얻은 worst pain
+    (You might be)
+    
+    If this love is over
+    다시 뛰어들어 난
+    이 사랑은 colder
+    I'll keep the fire lit in mine
+    
+    You'll always be my blue valentine
+    You'll always be my blue valentine
+    
+    붉고 푸른
+    사랑이란 bruise
+    낫지는 않길
+    Cause it's you (yeah)
+    
+    If this love is over
+    다시 뛰어들어 난 (뛰어들어 난)
+    이 사랑은 colder (colder, yeah)
+    I'll keep the fire lit in mine
+    
+    You'll always be my blue valentine
+    (Always be, my blue valentine)
+    You'll always be my blue valentine
+    
+    I'm falling over and over and over, ah
+    You're getting colder and colder and colder
+    Blue valentine
+  </div>
+  
+  <h5>inline 요소</h5>
+  <span class="box green">
+    You'll always be my blue valentine
+    You'll always be my blue valentine
+    
+    식어버린 너의 색은 blue
+    파랗게 멍이 든 my heart
+    몇 번이고 덧이 나
+    열이 나 lovesick
+    이건 such a bad love
+    
+    We fight, we sigh, and stop
+    붉게 타오르다 한순간에 식어가
+    Rewind, rewind, rewind
+    언제 그랬냐는 듯이 또 서롤 찾아
+    
+    깊게 새긴 상처
+    비친 red blood
+    부서진 forever
+    I can see it now
+    Can you see it now?
+    
+    우린 마치 broken glass on the ground
+    돌이킬 수 없다 해도
+    We can figure it out
+    
+    If this love is over
+    다시 뛰어들어 난
+    이 사랑은 colder
+    I'll keep the fire lit in mine
+    
+    You'll always be my blue valentine
+    You'll always be my blue valentine
+    
+    식어도 타오르는 얼음 속 불꽃
+    아무 겁도 없이 뻗어버린 손
+    Hot and icy
+    But I like it
+    It's so you
+    
+    바뀌어 맘의 weather
+    몰려온 cloud
+    외로운 together
+    I can feel it now
+    Can you feel it now?
+    
+    Rollercoaster처럼
+    우린 정신없이
+    흔들려도
+    돌아갈 걸 알아
+    So it doesn't matter
+    
+    You might be my end game
+    대가로 얻은 worst pain
+    (You might be)
+    
+    If this love is over
+    다시 뛰어들어 난
+    이 사랑은 colder
+    I'll keep the fire lit in mine
+    
+    You'll always be my blue valentine
+    You'll always be my blue valentine
+    
+    붉고 푸른
+    사랑이란 bruise
+    낫지는 않길
+    Cause it's you (yeah)
+    
+    If this love is over
+    다시 뛰어들어 난 (뛰어들어 난)
+    이 사랑은 colder (colder, yeah)
+    I'll keep the fire lit in mine
+    
+    You'll always be my blue valentine
+    (Always be, my blue valentine)
+    You'll always be my blue valentine
+    
+    I'm falling over and over and over, ah
+    You're getting colder and colder and colder
+    Blue valentine
+  </span>
+</body>
+</html>
