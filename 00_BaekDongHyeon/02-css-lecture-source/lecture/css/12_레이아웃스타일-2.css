@@ -1,0 +1,134 @@
+.test {
+  background: green;
+  width: 100px;
+  height: 100px;
+}
+
+/* padding : content와 border 사이*/
+.test1 {
+  /* 값 1개 : 상하좌우 모든 방향에 100px 설정*/
+  padding: 100px;
+
+  /* 값 2개 : 상하, 좌우*/
+  padding: 100px 50px;
+
+  /* 값 3개 : 상, 좌우, 하*/
+  padding: 50px 100px 75px;
+
+  /* 값 4개 : 상, 우, 하, 좌*/
+  padding: 25px 50px 75px 100px
+}
+
+/* 방향 지정 */
+.test2 {
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+
+/* margin : 요소 사이 간격 */
+.test3 {
+  margin: 50px;
+  margin: 25px 50px 75px 100px;
+}
+
+.test4 {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.test5 {
+  /* 요소를 가운데 정렬 시킬 수 있도록
+    자동으로 margin을 조정하는 값
+    (단, 기본적으로 가로 가운데 정렬)
+  */
+  margin: auto;
+}
+
+
+/* 영역 분할 */
+.container {
+  border: 3px solid red;
+  width: 500px;
+  height: 737px;
+}
+
+.container > .row-1 {
+  /* box-sizing
+    - width/height가 적용되는 영역 지정
+
+    - content-box
+      - width/height가 적용되는 영역을 content로 지정
+      - 기본 값
+
+    - border-box
+      - width/height가 적용되는 영역을
+        content + padding + border의 합으로 지정
+        단, content = 지정된 크기 - (padding + border) 으로 자동 계산
+  */
+  box-sizing: border-box;
+
+  width: 100%;
+  height: 50%;
+  border: 20px solid green;
+}
+
+.container > .row-1:first-child {
+  background: pink;
+}
+
+.container > .row-1:last-child {
+  background: gray;
+}
+
+
+/* 상하 4분할 */
+.div-test-1 > div {
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+
+.div-test-1 > div:nth-child(1) {
+  height: 10%;
+  background: skyblue;
+}
+
+.div-test-1 > div:nth-child(2) {
+  height: 20%;
+  background: yellow;
+}
+
+.div-test-1 > div:nth-child(3) {
+  height: 30%;
+  background: salmon;
+}
+
+.div-test-1 > div:nth-child(4) {
+  height: 40%;
+  background: springgreen;
+}
+
+/* 좌우 2분할 */
+.container-2 {
+  width: 600px;
+  height: 300px;
+  border: 3px solid red;
+}
+
+.col-1 {
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+}
+
+.col-1:nth-child(1) {
+  background: gold;
+}
+
+
+.col-1:nth-child(2) {
+  background: silver;
+  margin-left: -3.7px;
+}
